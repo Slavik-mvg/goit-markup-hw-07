@@ -26,25 +26,29 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container head-container">
         <nav class="site-nav">
           <a class="logo" href="./index.html">
-            <span class="logo-back">Web</span>Studio</a
+            <span class="logo__end">Web</span>Studio</a
           >
-          <ul class="site-nav-bt list">
-            <li class="item">
-              <a class="link current" href="./index.html">Студия </a>
+          <ul class="nav-bt list">
+            <li class="nav-bt__item">
+              <a class="nav-bt__link current" href="./index.html"
+                >Студия
+              </a>
             </li>
-            <li class="item">
-              <a class="link" href="./portfolio.html">Портфолио</a>
+            <li class="nav-bt__item">
+              <a class="nav-bt__link" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
-            <li class="item">
-              <a class="link" href="">Контакты</a>
+            <li class="nav-bt__item">
+              <a class="nav-bt__link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="site-nav mailtel list">
+        <!-- <ul class="site-nav mailtel list">
           <li class="item">
             <a
               class="link link-mail"
@@ -57,10 +61,28 @@
               </svg>
               info@devstudio.com
             </a>
+          </li> -->
+
+        <ul class="connect list">
+          <li class="connect__item">
+            <a
+              class="connect__link nav-bt__link"
+              href="mailto:info@devstudio.com"
+            >
+              <svg class="icon-mail">
+                <use
+                  href="./images/symbol-defs.svg#icon-envelope"
+                ></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
 
-          <li class="item">
-            <a class="link link-tel" href="tel:+380961111111">
+          <li class="connect__item">
+            <a
+              class="connect__link nav-bt__link"
+              href="tel:+380961111111"
+            >
               <svg class="icon-tel">
                 <use
                   href="./images/symbol-defs.svg#icon-Vector"
@@ -557,7 +579,7 @@
       <div class="container footer-container">
         <div class="footer-left">
           <a class="logo-footer" href="./index.html"
-            ><span class="logo-back">Web</span>Studio</a
+            ><span class="logo__end">Web</span>Studio</a
           >
           <address class="adress-footer">
             <a
@@ -632,23 +654,25 @@
           <div class="subscr-and-but">
             <input
               class="subscribe-email"
-              type="email" name="subscribe-email"
+              type="email"
+              name="subscribe-email"
               placeholder="E-mail"
             />
 
             <button class="button-subscribe" type="submit">
               Подписаться
 
-<svg class="subscribe-icon" width="24" height="24">
-  <use href="./images/symbol-defs.svg#icon-icon-send">
-
-  </use>
-</svg>
-
+              <svg class="subscribe-icon" width="24" height="24">
+                <use
+                  href="./images/symbol-defs.svg#icon-icon-send"
+                ></use>
+              </svg>
             </button>
-          </div></div> </div>
+          </div>
+        </div>
+      </div>
     </footer>
-<!-- --------------------beckdrop----------------------- -->
+    <!-- --------------------beckdrop----------------------- -->
 
     <div class="beckdrop is-hidden" data-modal>
       <div class="modal">
@@ -725,7 +749,6 @@
         </form>
 
         <div class="form-field-checkbox">
-         
           <input
             class="modal-checkbox visually-hidden"
             type="checkbox"
@@ -739,7 +762,9 @@
               </svg>
             </span>
             Соглашаюсь с рассылкой и принимаю &nbsp
-            <a class="link-title-checkbox" href=""> Условия договора</a>
+            <a class="link-title-checkbox" href="">
+              Условия договора</a
+            >
           </label>
         </div>
 
