@@ -90,7 +90,6 @@ body {
   margin: 0 auto;
 }
 
-
 .logo {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -136,13 +135,13 @@ body {
   padding-bottom: 32px;
 }
 
-.connect__link:hover .icon-tel,
-.connect__link:focus .icon-tel {
+.connect__link:hover .connect__tel,
+.connect__link:focus .connect__tel {
   fill: var(--accent-button-color);
 }
 
-.connect__link:hover .icon-mail,
-.connect__link:focus .icon-mail {
+.connect__link:hover .connect__mail,
+.connect__link:focus .connect__mail {
   fill: var(--accent-button-color);
 }
 
@@ -187,7 +186,7 @@ background-image: url(../images/svg/envelope.svg);
   align-items: center;
 }
 
-.icon-mail {
+.connect__mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -196,7 +195,7 @@ background-image: url(../images/svg/envelope.svg);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-tel {
+.connect__tel {
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -249,8 +248,6 @@ background-image: url(../images/svg/envelope.svg);
 .nav-bt__link:focus {
   color: var(--accent-color);
 }
-
-
 
 /* Hero --------------------------------------------------------*/
 
