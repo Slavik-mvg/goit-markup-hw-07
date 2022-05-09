@@ -533,10 +533,10 @@ background-image: url(../images/svg/envelope.svg);
   color: var(--base-color);
 }
 
-.comand-soclink .comand-soc + .comand-soc {
+.commad-list__soc + .commad-list__soc {
   margin-left: 10px;
 }
-.comand-socseti {
+.commad-list__socseti {
   display: flex;
   fill: #afb1b8;
 
@@ -545,13 +545,13 @@ background-image: url(../images/svg/envelope.svg);
   /* outline: 4px solid turquoise; */
 }
 
-.comand-soc {
+.commad-list__soc {
   display: flex;
 
   /* outline: 2px solid rgb(17, 231, 210); */
 }
 
-.comand-soc-link {
+.commad-list__link {
   width: 44px;
   height: 44px;
 
@@ -565,17 +565,17 @@ background-image: url(../images/svg/envelope.svg);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.comand-soc-link:hover,
-.comand-soc-link:focus {
+.commad-list__link:hover,
+.commad-list__link:focus {
   background-color: var(--accent-color);
 }
 
-.comand-soc-link:hover .comand-socseti,
-.comand-soc-link:focus .comand-socseti {
+.commad-list__link:hover .commad-list__socseti,
+.commad-list__link:focus .commad-list__socseti {
   fill: var(--title-text-color);
 }
 
-.comand-soclink {
+.commad-list__soclink {
   margin-top: 16px;
 
   display: flex;
