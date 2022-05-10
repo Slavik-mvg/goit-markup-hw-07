@@ -284,7 +284,7 @@ background-image: url(../images/svg/envelope.svg);
 }
 
 .button {
-  display: block;
+  display: inline-flex;
   background-color: var(--accent-button-color);
   color: var(--title-text-color);
   cursor: pointer;
@@ -295,14 +295,15 @@ background-image: url(../images/svg/envelope.svg);
   border-color: transparent;
   align-items: center;
   
-  padding: 10px 32px;
-
+ 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__button {
   margin-right: auto;
   margin-left: auto;
+   padding: 10px 32px;
+
 }
 
 .button:hover,
@@ -491,7 +492,7 @@ background-image: url(../images/svg/envelope.svg);
 
 .works-list__title,
 .advantage__title,
-.titlefooter {
+.footer-socseti__titlefooter {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -783,19 +784,19 @@ footer {
 
 /*------- Соцсети в футере------ */
 
-.footersoc-list {
+.footer-socseti__list {
   display: flex;
 }
 
-.footersoc-item + .footersoc-item {
+.footer-socseti__item + .footer-socseti__item {
   margin-left: 10px;
 }
 
-.footersoc-icon {
+.footer-socseti__icon {
   fill: var(--title-text-color);
 }
 
-.footersoc-link {
+.footer-socseti__link {
   width: 44px;
   height: 44px;
 
@@ -810,8 +811,8 @@ footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footersoc-link:hover,
-.footersoc-link:focus {
+.footer-socseti__link:hover,
+.footer-socseti__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -823,7 +824,7 @@ footer {
   margin-left: 70px;
 }
 
-.titlefooter {
+.footer-socseti__titlefooter {
   color: var(--title-text-color);
   margin-top: 12px;
   margin-bottom: 20px;
@@ -852,11 +853,11 @@ footer {
   margin-left: 93px;
 }
 
-.subscr-and-but {
+.subscribe__wrap {
   display: flex;
 }
 
-.subscribe-email {
+.subscribe__email {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -869,34 +870,19 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe-email:focus {
+.subscribe__email:focus {
   border: 1px solid var(--title-text-color);
 }
 
-.button-subscribe {
-  display: inline-flex;
-  color: var(--title-text-color);
-  background-color: var(--accent-button-color);
-  border-radius: 4px;
-
-  padding: 10px 29px;
-
-  cursor: pointer;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  border-color: transparent;
-
-  align-items: center;
-
+.subscribe__button {
+   padding: 10px 29px;
   margin-right: auto;
   margin-left: auto;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-subscribe:hover,
-.button-subscribe:focus {
+.subscribe__button:hover,
+.subscribe__button:focus {
   background-color: var(--accent-color);
 }
 
@@ -915,7 +901,7 @@ footer {
   background-color: transparent;
 } */
 
-.subscribe-icon {
+.subscribe__icon {
   margin-left: 10px;
 }
 /* --------------Modal-------------------- */
