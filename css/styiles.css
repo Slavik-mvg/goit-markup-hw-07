@@ -334,10 +334,12 @@
   .advantage__title {
     padding-bottom: 10px;
   }
+
   
   .advantage li + li {
     margin-left: 30px;
   }
+  
   
   .advantage__wrap {
     height: 120px;
@@ -367,11 +369,11 @@
     padding-top: 0;
   }
   
-  .works-list {
+  .works__list{
     display: flex;
   }
   
-  .works-list__item:not(:first-child) {
+  .works__item:not(:first-child) {
     margin-left: 30px;
   }
   
@@ -380,16 +382,16 @@
   }
   
   /* -------- */
-  .works-list__item {
+  .works__item {
     position: relative;
   }
   
-  .works-list__img {
+  .works__img {
     max-width: 100%;
     display: block;
   }
   
-  .works-list__title {
+  .works__title {
     position: absolute;
     width: 100%;
     height: 70px;
@@ -406,7 +408,7 @@
     justify-content: center;
   }
   
-  .works-list__link {
+  .works__link {
     display: block;
   }
   /* <!--------------------Наша команда-----------------------------> */
@@ -487,7 +489,7 @@
     line-height: 1.71;
   }
   
-  .works-list__title,
+  .works__title,
   .advantage__title,
   .footer-socseti__titlefooter {
     font-size: 14px;
