@@ -1,0 +1,50 @@
+.hero {
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: var(--background-footer-color);
+    color: var(--title-text-color);
+    text-align: center;
+    align-items: center;
+  
+    /* outline: 1px solid tomato; */
+    display: flex;
+  
+    max-width: 1600px;
+    height: 600px;
+  
+    justify-content: center;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/heroi.jpg);
+  }
+  
+ 
+  
+  .hero__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+ 
+  .hero__button {
+    margin-right: auto;
+    margin-left: auto;
+     padding: 10px 32px;
+  
+     &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+  }
+  
+  
+  
+ 
+

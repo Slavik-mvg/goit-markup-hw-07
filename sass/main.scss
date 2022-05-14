@@ -1,2 +1,24 @@
-@import "/utils/vars";
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
+
+
+@import "./base/container";
+@import "./base/reset";
+
+@import "./component/body";
+
+
+@import "./component/logo";
+@import "./component/button";
+
+@import "./component/header";
+@import "./component/nav-bt";
+@import "./component/connect";
+
+@import "./component/hero";
+
+@import "./component/works";
 
