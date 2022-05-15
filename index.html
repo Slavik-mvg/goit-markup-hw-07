@@ -932,27 +932,29 @@
 
         </form>
 
-        <div class="form-field-checkbox">
+        <div class="modal__checkbox">
           <input
-            class="modal-checkbox visually-hidden"
+            class="modal__checkbox-input visually-hidden"
             type="checkbox"
             name="checkbox"
             id="checkbox"
           />
-          <label class="label-checkbox" for="checkbox">
+          <label class="modal__checkbox-label" for="checkbox">
             <span
-              ><svg class="check-icon" width="11" height="8">
+              >
+              <!-- <svg class="modal__checkbox-icon" width="11" height="8"> -->
+              <svg  width="11" height="8">
                 <use href="./images/symbol-defs.svg#icon-Check"></use>
               </svg>
             </span>
             Соглашаюсь с рассылкой и принимаю &nbsp
-            <a class="link-title-checkbox" href="">
+            <a class="modal__checkbox-link" href="">
               Условия договора</a
             >
           </label>
         </div>
 
-        <button class="modal-button" type="submit">Отправить</button>
+        <button class="modal__button" type="submit">Отправить</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
