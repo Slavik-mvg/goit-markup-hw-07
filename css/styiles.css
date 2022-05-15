@@ -295,14 +295,13 @@
 
   /* advantage ----------------------------------------------*/
   
-  .advantage {
+  /* .advantage__list {
     display: flex;
     flex-wrap: wrap;
   }
   
   .advantage__item {
     width: 270px;
-    /* background-color: tomato; */
   }
   
   .advantage__title {
@@ -328,15 +327,9 @@
   .advantage__icon {
     width: 70px;
     height: 70px;
-  }
-  
-  /* .advantage__title:not(:first-child)
-  {padding-left: 50px;} */
-  
-  /* .advantage-list .list-item + .list-item{
-    padding-left: 40px;
   } */
   
+ 
   /* <!-------------------Чем мы занимаемся-->---------------- */
 /*   
   .works {
@@ -388,7 +381,7 @@
   } */
   /* <!--------------------Наша команда-----------------------------> */
   
-  .commad-list__item {
+  .command-list__item {
     
     background: var(--title-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -396,19 +389,19 @@
     border-radius: 0px 0px 4px 4px;
   }
   
-  .commad {
+  .command {
     background-color: var(--accent-buttons-color);
   }
   
-  .commad-list {
+  .command-list {
     display: flex;
   }
   
-  .commad-list__item {
+  .command-list__item {
     background-color: var(--title-text-color);
   }
   
-  .commad-list__item:not(:first-child) {
+  .command-list__item:not(:first-child) {
     margin-left: 30px;
   }
   
@@ -448,13 +441,13 @@
   
     box-sizing: border-box;
   }
-  
+/*   
   .advantage__text {
     color: var(--base-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-  }
+  } */
   
   .works__title,
   .advantage__title,
@@ -470,7 +463,7 @@
     text-align: center;
   }
   
-  .commad-list__title {
+  .command-list__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.89;
@@ -478,12 +471,12 @@
     margin-bottom: 10px;
   }
   
-  .commad-list__text {
+  .command-list__text {
     color: var(--base-color);
     text-align: center;
   }
   
-  .commad-list__wrap {
+  .command-list__wrap {
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -499,10 +492,14 @@
     color: var(--base-color);
   }
   
-  .commad-list__soc + .commad-list__soc {
+  .command-list__soc + .command-list__soc {
     margin-left: 10px;
   }
-  .commad-list__socseti {
+
+
+
+  
+  .command-list__socseti {
     display: flex;
     fill: #afb1b8;
   
@@ -511,13 +508,19 @@
     /* outline: 4px solid turquoise; */
   }
   
-  .commad-list__soc {
+  .command-list__socseti--color
+{
+  fill: var(--title-text-color);
+}
+
+
+  .command-list__soc {
     display: flex;
   
     /* outline: 2px solid rgb(17, 231, 210); */
   }
   
-  .commad-list__link {
+  .command-list__link {
     width: 44px;
     height: 44px;
   
@@ -530,18 +533,25 @@
   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .commad-list__link:hover,
-  .commad-list__link:focus {
+
+  .command-list__link--color
+  {
+    background-color: rgba(255, 255, 255, 0.1);
+
+  }
+
+
+  .command-list__link:hover,
+  .command-list__link:focus {
     background-color: var(--accent-color);
   }
   
-  .commad-list__link:hover .commad-list__socseti,
-  .commad-list__link:focus .commad-list__socseti {
+  .command-list__link:hover .command-list__socseti,
+  .command-list__link:focus .command-list__socseti {
     fill: var(--title-text-color);
   }
   
-  .commad-list__soclink {
+  .command-list__soclink {
     margin-top: 16px;
   
     display: flex;
@@ -772,8 +782,8 @@
     border-radius: 50px;
   
     background-color: rgba(255, 255, 255, 0.1);
-  
-    /* outline: 2px solid #40e018; */
+    
+      /* outline: 2px solid #40e018; */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
