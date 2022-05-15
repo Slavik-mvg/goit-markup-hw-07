@@ -26,6 +26,8 @@
   
 .advantage__title {
     padding-bottom: 10px;
+
+    @include section-title ();
   }
 
   .advantage__wrap {
